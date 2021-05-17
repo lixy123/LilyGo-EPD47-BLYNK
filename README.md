@@ -26,7 +26,7 @@
        稳定性：信息转发成功率>99%<br/>
        用电：不考虑用电池，市电供电<br/>
        
-   3.lilygo-epd47 1块 + HC08 1块 + 电池 1块 (一套显示终端 )<br/>
+   3.LILYGO® T5-4.7 inch E-paper ESP32 1块 + HC08 1块 + 电池 1块 (一套显示终端 )<br/>
    <img src= 'https://github.com/lixy123/LilyGo-EPD47-BLYNK/blob/main/blynk_3.jpg?raw=true' /> <br/>   
    <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_2.jpg?raw=true' /> <br/>  
      hc08 要双晶振版本，否则不支持一级节能模式,省电效果打折扣<br/>
