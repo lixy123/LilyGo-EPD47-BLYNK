@@ -17,18 +17,18 @@
 
 <b>二.硬件</b><br/>
    1.手机 (安装blynk APP) <br/>   
-   <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_1.jpg?raw=true' /> <br/>
+   <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_1.jpg?raw=true' /> 
    
    2.ESP32模块 1块 (信息转发器) <br/>
      一般的ESP32模块均可，我用的是这一块:<br/>
-      <img src= 'https://github.com/lixy123/LilyGo-EPD47-BLYNK/blob/main/ESP32.jpg?raw=true' /> <br/>     
+      <img src= 'https://github.com/lixy123/LilyGo-EPD47-BLYNK/blob/main/ESP32.jpg?raw=true' />    
      指标:<br/>
        稳定性：信息转发成功率>99%<br/>
        用电：不考虑用电池，市电供电<br/>
        
    3.LILYGO® T5-4.7 inch E-paper ESP32 1块 + HC08 1块 + 电池 1块 (一套显示终端 )<br/>
-   <img src= 'https://github.com/lixy123/LilyGo-EPD47-BLYNK/blob/main/blynk_3.jpg?raw=true' /> <br/>   
-   <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_2.jpg?raw=true' /> <br/>  
+   <img src= 'https://github.com/lixy123/LilyGo-EPD47-BLYNK/blob/main/blynk_3.jpg?raw=true' />  
+   <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_2.jpg?raw=true' />  
      hc08 要双晶振版本，否则不支持一级节能模式,省电效果打折扣<br/>
      引脚连接:<br/>
      lilygo-epd47  hc-08<br/>
