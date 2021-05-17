@@ -16,7 +16,20 @@
    经过一段时间的硬件选型和尝试,基本达到了预期.<br/>
 
 <b>二.硬件</b><br/>
-   1.lilygo-epd47 1块 + HC08 1块 + 电池 1块 (一套显示终端 )<br/>
+   1.手机 (安装blynk APP) <br/>   
+   <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_1.jpg?raw=true' /> <br/>
+
+   
+   2.ESP32模块 1块 (信息转发器) <br/>
+     一般的ESP32模块均可，我用的是这一块:<br/>
+     
+     指标:<br/>
+       稳定性：信息转发成功率>99%<br/>
+       用电：不考虑用电池，市电供电<br/>
+       
+   2.lilygo-epd47 1块 + HC08 1块 + 电池 1块 (一套显示终端 )<br/>
+   <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_2.jpg?raw=true' /> <br/>
+   <img src= 'https://github.com/lixy123/LilyGo-EPD47-BLYNK/blob/main/blynk_3.jpg?raw=true' /> <br/>   
      hc08 要双晶振版本，否则不支持一级节能模式
      引脚连接:<br/>
      lilygo-epd47  hc-08<br/>
@@ -35,19 +48,6 @@
        唤醒时间<2秒<br/>
        显示文字用时 <3秒<br/>
        用电: 1500ma的电池, 供电约3月 <br/>
-       
-       
-   2.ESP32模块 1块 (信息转发器) <br/>
-     指标:<br/>
-       稳定性：信息转发成功率>99%<br/>
-       用电：不考虑用电池，市电供电<br/>
-       
-   3.手机 (安装blynk APP) <br/>
-   
-   <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_1.jpg?raw=true' /> <br/>
-   <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_2.jpg?raw=true' /> <br/>
-   <img src= 'https://github.com/lixy123/LilyGo-EPD47-BLYNK/blob/main/blynk_3.jpg?raw=true' /> <br/>
-
 
 <b>三.软件</b><br/>
 1.epd47_blue_waker (蓝牙从机-外设)<br/>
