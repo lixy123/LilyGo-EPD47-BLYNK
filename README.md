@@ -29,7 +29,13 @@
    3.LILYGO® T5-4.7 inch E-paper ESP32 1块 + HC08 1块 + 电池 1块 (一套显示终端 )<br/>
    <img src= 'https://github.com/lixy123/LilyGo-EPD47-BLYNK/blob/main/blynk_3.jpg?raw=true' />  
    <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_2.jpg?raw=true' />  
-     hc08 要双晶振版本，否则不支持一级节能模式,省电效果打折扣<br/>
+     <b>hc08资料:</b>
+     要双晶振版本，否则不支持一级节能模式,省电效果打折扣<br/>
+     https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7ff42e8dvTCkln&id=565758589107&_u=hntkjuse1ad
+     http://www.hc01.com/products/6
+     <b>T5-4.7 inch E-paper资料:</b>
+     https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.49.2ad47484934hJw&id=634979479882
+     https://github.com/Xinyuan-LilyGO/LilyGo-EPD47 
      引脚连接:<br/>
      lilygo-epd47  hc-08<br/>
        VCC         VCC<br/>
