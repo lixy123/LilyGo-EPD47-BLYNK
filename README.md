@@ -1,7 +1,7 @@
 # LilyGo-EPD47-BLYNK
 利用BLYNK 技术进行手机/电脑到墨水屏留言
 
-<b>一.功能 </b> 
+<b>一.功能 </b> <br/>
    利用BLYNK 技术进行手机/电脑到墨水屏留言<br/>
    思路:<br/>
    1.手机APP与BLYNK服务器相连,将信息发到BLYNK服务器.<br/>
