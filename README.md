@@ -28,8 +28,7 @@
      hc08 AT命令预处理:<br/>
      AT+MODE=1        //设置成一级节能模式(必须)<br/>
      AT+NAME=INK_047  //修改蓝牙名称，用于客户端查找蓝牙用<br/>
-     AT+LED=0          //关闭led灯，省电<br/>
-    
+     AT+LED=0          //关闭led灯，省电 <br/>    
      指标:<br/>
        hc08：一级节能模式电流约 6μA ~2.6mA （待机） /1.6mA（工作）
        整体休眠电流<1ma <br/>
@@ -43,7 +42,8 @@
        稳定性：信息转发成功率>99%<br/>
        用电：不考虑用电池，市电供电<br/>
        
-   3.手机 (安装blynk APP)
+   3.手机 (安装blynk APP) <br/>
+   
    <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_1.jpg?raw=true' /> <br/>
    <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_2.jpg?raw=true' /> <br/>
    <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/ink_epd47_1.jpg?raw=true' /> <br/>
