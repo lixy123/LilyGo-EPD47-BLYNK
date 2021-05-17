@@ -73,6 +73,7 @@ https://github.com/ivanseidel/LinkedList 最新版本<br/>
 软件: arduino 1.8.13<br/>
 库文件:<br/>
 https://github.com/espressif/arduino-esp32 版本:1.0.6<br/>
+库管理器查找并安装 blynk<br/>
 开发板选择：ESP32 DEV Module<br/>
 编译分区：HUGE APP<br/>
 
