@@ -35,8 +35,7 @@
      http://www.hc01.com/products/6<br/>
      <b>T5-4.7 inch E-paper资料:</b><br/>
      https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.49.2ad47484934hJw&id=634979479882<br/>
-     https://github.com/Xinyuan-LilyGO/LilyGo-EPD47 <br/> 
-     
+     https://github.com/Xinyuan-LilyGO/LilyGo-EPD47 <br/>      
      引脚连接:<br/>
      lilygo-epd47  hc-08<br/>
        VCC         VCC<br/>
