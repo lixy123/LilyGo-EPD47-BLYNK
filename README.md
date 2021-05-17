@@ -89,9 +89,9 @@ https://github.com/espressif/arduino-esp32 版本:1.0.6<br/>
   
 <b>五.补充</b> <br/>
 1.手机APP不需要与esp32在同一个局域网内。<br/>
-2.LilyGo-EPD47墨水屏与esp32是蓝牙通讯,距离在2-5内<br/>
-3.常供电的esp32电流约40-80ma左右<br/>
-4.LilyGo-EPD47墨水屏平时休眠时电流约0.5ma左右(估算)<br/>
+2.LilyGo-EPD47墨水屏与esp32蓝牙通讯,建议两者距离在2-5米内<br/>
+3.常供电的esp32工作时电流约40-80ma<br/>
+4.LilyGo-EPD47墨水屏平时休眠电流约0.5ma左右(估算)<br/>
 5.blynk服务器在国外，偶尔会连接不上，用起来不可靠，可考虑自建国内的blynk云服务器，稳定性和速度会更好<br/>
 
 
