@@ -18,7 +18,6 @@
 <b>二.硬件</b><br/>
    1.手机 (安装blynk APP) <br/>   
    <img src= 'https://github.com/lixy123/LilyGo-EPD47-HC08/blob/main/blynk_1.jpg?raw=true' /> <br/>
-
    
    2.ESP32模块 1块 (信息转发器) <br/>
      一般的ESP32模块均可，我用的是这一块:<br/>
@@ -51,7 +50,8 @@
 
 <b>三.软件</b><br/>
 1.epd47_blue_waker (蓝牙从机-外设)<br/>
-烧录到LilyGo-EPD47墨水屏，实现墨水屏电池供电情境下, 平时休眠,按需显示。<br/>
+烧录到LilyGo-EPD47墨水屏，实现墨水屏电池供电情境下, 平时休眠,按需显示<br/>
+注: 这源码是另一项目:https://github.com/lixy123/LilyGo-EPD47-HC08 的一部分, 包括显示天气,显示日历等功能, 用不着的功能可精简掉. <br/>
 软件: arduino 1.8.13<br/>
 库文件:<br/>
 https://github.com/espressif/arduino-esp32 版本:1.0.6<br/>
@@ -62,7 +62,7 @@ https://github.com/ivanseidel/LinkedList 最新版本<br/>
 开发板选择：TTGO-T-WATCH<br/>
 
 2.epd47_blue_waker_center_blynk (blynk技术将消息文字推送到墨水屏显示)<br/>
-烧录到普通的ESP32模块上, <br/>
+烧录到普通的ESP32模块上 <br/>
 软件: arduino 1.8.13<br/>
 库文件:<br/>
 https://github.com/espressif/arduino-esp32 版本:1.0.6<br/>
