@@ -76,6 +76,9 @@ https://github.com/espressif/arduino-esp32 版本:1.0.6<br/>
 库管理器查找并安装 blynk<br/>
 开发板选择：ESP32 DEV Module<br/>
 编译分区：HUGE APP<br/>
+注：编译代码前，需要用手机APP安装blynk后创建项目获得控制ESP32唯一硬件的key, 赋值这个变量 char auth[] = ""; <br/>
+    方法参考:http://m.elecfans.com/article/1003098.html <br/>
+
 
 <b>四.用法</b><br/>
 1.手机APP安装blynk,并配置项目<br/>
