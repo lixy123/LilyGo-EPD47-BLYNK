@@ -38,7 +38,7 @@
    经过一段时间的硬件选型和尝试,基本达到了预期.<br/>
    
    关于如何用树莓派或云服务器和手机一样推送信息至墨水屏参考： <br/>
-   https://blynkapi.docs.apiary.io/#reference/0/pin-history-data <br/>
+   https://blynkapi.docs.apiary.io/#reference/0/set-widget-property-via-get <br/>
 
 <b>二.硬件</b><br/>
    1.手机 (安装blynk APP) <br/>   
