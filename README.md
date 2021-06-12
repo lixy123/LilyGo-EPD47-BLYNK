@@ -78,17 +78,16 @@
        用电: 1500ma的电池, 供电约3月 <br/>
 
 <b>三.软件</b><br/>
-1.epd47_blue_waker (蓝牙从机-外设)<br/>
+1.epd47_blue_waker_show_txt_speaker_i2c (蓝牙从机-外设)<br/>
 烧录到LilyGo-EPD47墨水屏，实现墨水屏电池供电情境下, 平时休眠,按需显示<br/>
-注: 这源码是另一项目:https://github.com/lixy123/LilyGo-EPD47-HC08 的一部分, 包括显示天气,显示日历等功能, 用不着的功能可精简掉. <br/>
 软件: arduino 1.8.13<br/>
 库文件:<br/>
 https://github.com/espressif/arduino-esp32 版本:1.0.6<br/>
-https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library 最新版本, 仅为了用到它定义的开发板<br/>
 https://github.com/Xinyuan-LilyGO/LilyGo-EPD47 最新版本<br/>
 https://github.com/bblanchon/ArduinoJson 版本: 6<br/>
 https://github.com/ivanseidel/LinkedList 最新版本<br/>
-开发板选择：TTGO-T-WATCH<br/>
+开发板选择：ESP32 Dev Module<br/>
+分区：Huge APP<br/>
 
 2.epd47_blue_waker_center_blynk (blynk技术将消息文字推送到墨水屏显示)<br/>
 烧录到普通的ESP32模块上 <br/>
