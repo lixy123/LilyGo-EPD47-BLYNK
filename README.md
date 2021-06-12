@@ -77,6 +77,8 @@
        显示文字用时 <3秒<br/>
        用电: 1500ma的电池, 供电约3月 <br/>
 
+   4.迅飞TTS模块（可以不要）<br/>
+   
 <b>三.软件</b><br/>
 1.epd47_blue_waker_show_txt_speaker_i2c (蓝牙从机-外设)<br/>
 烧录到LilyGo-EPD47墨水屏，实现墨水屏电池供电情境下, 平时休眠,按需显示<br/>
@@ -111,6 +113,8 @@ https://github.com/espressif/arduino-esp32 版本:1.0.6<br/>
   首次运行时ESP32需要配置配置wifi连接，代码中用到了 ESP32 SmartConfig 配网技术,<br/>
   参考:https://www.zhangtaidong.cn/archives/124/ 微信扫描配置wifi网络.否则会每120秒重启,无法进入主功能.<br/>
   以上如果均正常，手机APP上启动新建的项目会发现esp32处于上线状态，在输入部件输入文字并回车，约5秒左右，文字会显示到墨水屏<br/>
+4.如果播放出文字<br/>
+   如果墨水屏连接了i2c的迅飞TTS模块，当接收到 sp:打头的文字，会播放sp:后的文字，而不是显示<br/>
   
 <b>五.补充</b> <br/>
 1.手机APP不需要与esp32在同一个局域网内。<br/>
