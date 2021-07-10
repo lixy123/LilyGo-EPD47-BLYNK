@@ -90,7 +90,7 @@ bool smartconfigManager::connectwifi()
       Serial.print(".");
 
       //15秒连接不上，自动重启
-      if ( abs(millis() / 1000 - lasttime ) > 15 )
+      if ( (millis() / 1000 - lasttime ) > 15 )
       {        
         //仅仅第一次连接失败才会进入smartConfig技术配网
         if (connect_cnt==0)
