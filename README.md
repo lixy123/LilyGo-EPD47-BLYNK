@@ -6,7 +6,7 @@
 
 <b>附注：</b><br/>
    可以用https://ifttt.com/ 作为BLYNK远程留言触发器， 触发语句为:<br/>
-   http: "http://blynk-cloud.com/cBPwCCSgCX6LWbSSw2Bk-5VlGB3prijm/update/V4?value=sp:soul"<br/>
+   http: "http://blynk-cloud.com/你的设备BLYNK-KEY/update/V4?value=sp:soul"<br/>
    实际发现设定的远程留言的使用机率不大，最终功能竟然变成了每天1-2次的语言或文字吐槽机，离预期的功能越走越远了.<br/>
 <br/>   
    <b>技术方案及功能:</b> <br/>
