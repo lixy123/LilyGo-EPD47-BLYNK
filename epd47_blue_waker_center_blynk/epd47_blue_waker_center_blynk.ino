@@ -149,7 +149,9 @@ void loop()
       int soul_index = random(ToxicSoulCount);
       g_ink_showtxt_out = "sp:" + String(ToxicSoul[soul_index]);
     }
-
+    else if (g_ink_showtxt.startsWith("sp:"))
+       g_ink_showtxt_out = g_ink_showtxt_out.substring(3);
+    
     //正常300字节内5秒发送完成
     bool ret_bool = objManager_blue_to_hc08->blue_connect_sendmsg(g_ink_showtxt_out, false);
     if (ret_bool)
