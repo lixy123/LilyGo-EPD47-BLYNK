@@ -138,7 +138,7 @@ void loop()
   //如果有待发送数据，进行发送
   if (g_ink_showtxt.length() > 0)
   {
-    String  g_ink_showtxt_out = "";
+    String  g_ink_showtxt_out = g_ink_showtxt;
     if (g_ink_showtxt == "soul")
     {
       int soul_index = random(ToxicSoulCount);
